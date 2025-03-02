@@ -25,8 +25,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
-<body class=" poppins">
-    <section class="bg ">
+<body class="bg poppins ">
+    <section id="change" >
        <header class="px-8 pt-5">
         <nav class="bg-white rounded-2xl px-7 py-2 flex justify-between">
             <div class="flex items-center">
@@ -38,9 +38,9 @@
             <div class="flex items-center gap-2">
                     <div class="bg rounded-3xl flex items-center p-3 gap-4 ">
                         <img class="w-6 h-6" src="assets/checkbox.png" alt="">
-                        <p class="font-bold text-2xl">23</p>
+                        <p id="increase" class="font-bold text-2xl">23</p>
                     </div>
-                   <div class="bg rounded-full"> <img class="w-12 p-2" src="assets/theme-btn.png" alt=""></div>
+                   <div id="colorchanger"  class="bg rounded-full"> <img  class="w-12 p-2" src="assets/theme-btn.png" alt=""></div>
             </div>
         </nav>
        </header>
@@ -57,16 +57,16 @@
                    </div>
                     <div >
                         <p class="text-xs">Total Assinged</p>
-                        <p class="font-bold text-xl">05</p>
+                        <p id="assing" class="font-bold text-xl">06</p>
                     </div>
 
 
 
                 </div>
                 <!-- discover something with new -->
-                <div class="w-3/5 rounded-xl flex items-center bg-[linear-gradient(to_right,#3752FD,#9BA8F8)] px-8">
+                <div id="discover" class="w-3/5 rounded-xl flex items-center bg-[linear-gradient(to_right,#3752FD,#9BA8F8)] px-8">
                     <img class="" src="assets/board.png" alt="">
-                    <p class="text-white text-xl  ">Discover Something <br> New Today!</p>
+                    <p  class="text-white text-xl  ">Discover Something <br> New Today!</p>
                 </div>
                 <div class="w-1/5 bg flex items-center rounded-xl px-5 gap-4">
                     <div class="bg-white rounded-full">
@@ -79,14 +79,14 @@
 
             
 
-             <!-- second third roww ith grid  -->
+             <!-- second third row with grid  -->
               <!-- 2nd and third row container -->
               <div class="grid grid-cols-3 gap-3 mx-4">
                 <!-- 1st card -->
 
                 <div class="bg rounded-lgmx-auto mb-3">
                   <p class="bg-white mt-5 rounded-lg text-xs opacity-80 inline-block px-3 mx-3">ShopEase</p>
-                  <h3 class="ml-3 mb-2 mt-2">Fix Mobile Button Issue </h3>
+                  <h3 id="title" class="ml-3 mb-2 mt-2">Fix Mobile Button Issue </h3>
 
                  <div class="bg-white text-sm max-h-16 mx-3 pt-3 rounded-xl pb-5">
                   <p class="px-5 opacity-50 overflow-hidden text-ellipsis line-clamp-2">
@@ -106,7 +106,7 @@
                 <!-- 2nd card -->
                 <div class="bg rounded-lg mx-auto  mb-3">
                   <p class="bg-white mt-5 rounded-lg text-xs opacity-80 inline-block px-3 mx-3">CloudSync</p>
-                  <h3 class="ml-3 mb-2 mt-2">Add Dark Mode </h3>
+                  <h3 id="title" class="ml-3 mb-2 mt-2">Add Dark Mode </h3>
 
                  <div class="bg-white text-sm max-h-16 mx-3 pt-3 rounded-xl pb-5">
                   <p class="px-5 opacity-50 overflow-hidden text-ellipsis line-clamp-2">
@@ -126,7 +126,7 @@
                 <!-- 3rd card -->
                 <div class="bg rounded-lg mx-auto mb-3">
                   <p class="bg-white mt-5 rounded-lg text-xs opacity-80 inline-block px-3 mx-3">SwiftPay</p>
-                  <h3 class="ml-3 mb-2 mt-2">Optimize  Home page </h3>
+                  <h3 id="title" class="ml-3 mb-2 mt-2">Optimize  Home page </h3>
 
                  <div class="bg-white text-sm max-h-16 mx-3 pt-3 rounded-xl pb-5">
                   <p class="px-5 opacity-50 overflow-hidden text-ellipsis line-clamp-2">
@@ -145,7 +145,7 @@
                 <!-- 4th card -->
                 <div class="bg rounded-lg mx-auto mb-3">
                   <p class="bg-white mt-5 rounded-lg text-xs opacity-80 inline-block px-3 mx-3">Meta</p>
-                  <h3 class="ml-3 mb-2 mt-2">Add new emoji 🤲</h3>
+                  <h3 id="title" class="ml-3 mb-2 mt-2">Add new emoji 🤲</h3>
 
                  <div class="bg-white text-sm max-h-16 mx-3 pt-3 rounded-xl pb-5">
                   <p class="px-5 opacity-50 overflow-hidden text-ellipsis line-clamp-2">
@@ -165,7 +165,7 @@
                 <!-- 5th card -->
                 <div class="bg rounded-lg mx-auto mb-3">
                   <p class="bg-white mt-5 rounded-lg text-xs opacity-80 inline-block px-3 mx-3">Google LLC</p>
-                  <h3 class="ml-3 mb-2 mt-2">Integrate OpenAI API </h3>
+                  <h3 id="title" class="ml-3 mb-2 mt-2">Integrate OpenAI API </h3>
 
                  <div class="bg-white text-sm max-h-16 mx-3 pt-3 rounded-xl pb-5">
                   <p class="px-5 opacity-50 overflow-hidden text-ellipsis line-clamp-2">
@@ -184,7 +184,7 @@
                 <!-- 6th card -->
                 <div class="bg rounded-lg mx-auto mb-3">
                   <p class="bg-white mt-5 rounded-lg text-xs opacity-80 inline-block px-3 mx-3">Glassdoar</p>
-                  <h3 class="ml-3 mb-2 mt-2">Improve Job searching </h3>
+                  <h3 id="title" class="ml-3 mb-2 mt-2">Improve Job searching </h3>
 
                  <div class="bg-white text-sm max-h-16 mx-3 pt-3 rounded-xl pb-5">
                   <p class="px-5 opacity-50 overflow-hidden text-ellipsis line-clamp-2">
@@ -211,9 +211,14 @@
             <img src="assets/activity.png" alt="">
             <p>Activity Log</p>
           </div>
-          <button class="btn mt-5  text-white p-4  bg-[#3752fd] border-none rounded-lg">Clear histroy</button>
+          <button id="clear-btn" class=" mt-5  text-white p-3  bg-[#3752fd] border-none rounded-lg">Clear histroy</button>
 
           <hr class="border-dashed mt-5 border-1">
+
+          <div id="field">
+            <p class="bg rounded-md m-4 p-2">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+            <p class="bg m-4 p-2">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+          </div>
            
         </div>
        </section>
@@ -222,6 +227,9 @@
 
     </section>
 
-
+<script src="script/btn.js"></script>
+<script src="script/clearhis.js"></script>
+<script src="script/randomcolor.js"></script>
+<script src="script/switch.js"></script>
 </body>
 </html>
