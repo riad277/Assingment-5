@@ -6,7 +6,7 @@ for (let i = 0; i < buttons.length; i++) {
     const button = buttons[i];
     button.addEventListener('click', function () {
         button.disabled = true;
-        button.style.opacity = '0.3';
+        button.style.opacity = '0.2';
 
         let currentAssignValue = parseInt(assignElement.innerText, 10);
         currentAssignValue -= 1;
