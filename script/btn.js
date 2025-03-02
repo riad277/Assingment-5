@@ -17,5 +17,8 @@ for (let i = 0; i < buttons.length; i++) {
         increaseElement.innerText = currentIncreaseValue;
 
         alert('Board updated Successfully');
+        if(currentAssignValue=== 0){
+            alert("Congrates!you have completed all the current task")
+        }
     });
 }

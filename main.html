@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <section  class="bg  poppins px-8 py-5 ">
+        <header class="">
+         <nav class="bg-white rounded-2xl px-7 py-2 flex justify-between">
+             <div class="flex items-center">
+                 <img class="w-8" src="assets/logo.png" alt="">
+                 <p class="text-2xl" >Dev <span class="font-bold">Board</span>
+                 </p>
+             </div>
+ 
+             <button id="back" class="bg-violet-700 text-white rounded-xl px-5 py-2">Back to Desk</button>
+         </nav>
+        </header>
+
+        <h1 class="text-center font-bold text-2xl">Blog</h1>
+
+        <div class="bg-white rounded-xl p-7">
+            <p class="font-bold text-xl">Question-1: what are the different way to select an element in the Dom?</p>
+            <hr class="border border-dashed mt-2">
+            <p class="mt-4">There are different ways so select an element such as getElementById ,querySelector ,querySelectorAll,getElementByClass,getElementByTagname etc .we use differnet types of parameter to select the element</p>
+        </div>
+        <div class="bg-white rounded-xl p-7 mt-4">
+            <p class="font-bold text-xl">Question-2: What is the difference between innerHTML, innerText, and textContent ?</p>
+            <hr class="border border-dashed mt-2">
+            <p class="mt-4"></p>
+        </div>
+        <div class="bg-white rounded-xl p-7 mt-4">
+            <p class="font-bold text-xl">Question-3: What is event delegation in the DOM?
+            </p>
+            <hr class="border border-dashed mt-2">
+            <p class="mt-4"></p>
+        </div>
+        <div class="bg-white rounded-xl p-7 mt-4">
+            <p class="font-bold text-xl">Question-4: What is event bubbling in the DOM?
+            </p>
+            <hr class="border border-dashed mt-2">
+            <p class="mt-4"></p>
+        </div>
+        <div class="bg-white rounded-xl p-7 mt-4">
+            <p class="font-bold text-xl">Question-5: How do you create, add, and remove elements using JavaScript?
+            </p>
+            <hr class="border border-dashed mt-2">
+            <p class="mt-4"></p>
+        </div>
+
+
+
+    </section>
+<script src="switch.js"></script>
+<script>
+    document.getElementById('back').addEventListener('click', function(){
+    window.location.href="index.html";
+})
+</script>
+
+
+</body>
+</html>
